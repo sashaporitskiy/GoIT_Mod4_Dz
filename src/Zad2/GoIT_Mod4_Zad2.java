@@ -32,6 +32,6 @@ public class GoIT_Mod4_Zad2 {
                 System.out.print("+ ");
             }
             System.out.println("\n ");
-        }  
+        }
     }
 }

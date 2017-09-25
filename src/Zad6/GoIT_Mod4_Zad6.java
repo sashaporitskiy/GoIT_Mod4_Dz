@@ -3,8 +3,7 @@ package Zad6;
 import java.util.Scanner;
 
 /**
- *Задание 5
- Решить задачу 1, без использования циклов. Используя рекурсию.
+ *Решить задачу 2, без использования циклов. Используя рекурсию.
  *
  * Задание 2
  Написать функцию drawRectangle которая рисует в консоли прямоугольник из символов '+'
@@ -26,7 +25,7 @@ public class GoIT_Mod4_Zad6 {
         System.out.println("Result:");
         drawRectangle(a,a,b);
     }
-    
+
     static void drawRectangle(int ta, int a, int b) {
         if (ta > 0) {
             System.out.print("+ ");
